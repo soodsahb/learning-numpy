@@ -1,0 +1,20 @@
+[project]
+name = "learning-numpy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Pranav Sood", email = "boyp56039@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+]
+
+[project.scripts]
+learning-numpy = "learning_numpy:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
